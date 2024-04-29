@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --body-color: #e4e9f7;
+  --primary-color: #0aaa9e;
+  --secondary-color: #00afef;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#inicio {
+  background: url(../img/background.png) no-repeat;
+  background-size: cover;
+}
+
+.icon-header {
+  font-size: 40px;
+  color: black;
+}
+
+.transicao {
+  transition: all 0.2s ease;
+}
+
+.dropdown-cambo a:hover {
+  background: var(--secondary-color);
+}
+
+.icon-inicio {
+  font-size: 100px;
+}
+
+/* #empresas {
+  background-color: #b6edea;
+} */
+
+#destaques {
+  background: url(../img/Prancheta\ 1.png);
+  background: linear-gradient(#032830, #00afef);
+}
+
+/* #empresas {
+  background: linear-gradient(var(--secondary-color), var(--primary-color));
+}
+
+#sobre {
+  background: linear-gradient(var(--primary-color), #032830);
+} */
+
+/* .card-edit {
+  border: none;
+  box-shadow: 0 1px 2px 0 #0aaa9e, 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+} */
+
+.card-edit:hover {
+  box-shadow: 0 2px 4px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+}
+
+.icon-team {
+  font-size: 40px;
+}
+
+#sugestao {
+  background: url(../img/journal-2850091_1920.jpg) no-repeat top;
+  background-size: cover;
+}
+
+.pizza {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: conic-gradient(pink 0 80deg, lightblue 0 240deg);
+}
+
+@media (max-width: 991.98px) {
+  #sidelinks {
+    display: none;
+  }
+
+  #summary {
+    display: none;
+  }
+
+  .img-off-cell {
+    display: none;
+  }
+}
+
+.visit:hover {
+  background: #6c7f7e;
+}
+
+.emp-edit div {
+  color: black;
+  /* filter: blur(5px); */
+  transition: all 0.3s ease;
+}
+
+/* .emp-edit div:hover {
+  background-color: rgba(0, 100, 250, 0.1);
+  /* filter: none; */
+
+.emp-edit div a {
+  transition: all 0.3s ease;
+  outline: 2px solid transparent;
+}
+
+.emp-edit div a:hover {
+  outline: 2px solid aquamarine;
+}
+
+.img-off-cell i {
+  display: block;
+}
