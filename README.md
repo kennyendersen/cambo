@@ -4,4 +4,4 @@
 
 ##
 
--💻Acesse o site <a href="https://cambohistory.000webhostapp.com/index.html" target="_blank">CamboHistory</a>.
+-💻Acesse o site <a href="https://kennyendersen.github.io/cambohistory/cambohistory/" target="_blank">CamboHistory</a>.
